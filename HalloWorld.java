@@ -18,6 +18,14 @@ public class HalloWorld {
             counter++;
         }
 
+
+        for (char i: hallo) {
+                letters = letters + Character.toString(i);
+                if (i == 108){
+                    letters = letters + Character.toString(i);
+                }
+            }
+        /*
         for (int i = 0; i < hallo.length; ) {
             i = i;
             if (i == 2) {
@@ -27,7 +35,7 @@ public class HalloWorld {
                 i++;
             }
         }
-
+        */
         return letters;
     }
 
